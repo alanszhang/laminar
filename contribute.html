@@ -78,8 +78,13 @@
                 </div>
                 <div class='response'>
                     <form id='contribution_input' action='add_story.py' method='post'>
-                        <textarea id=contribution placeholder='make your mark'></textarea>
-                        <input type="button" onclick="handle_contribution()" value="Submit">
+                        <div id=input_col>
+                            <textarea id=contribution placeholder='make your mark'></textarea>
+                        </div>
+                        <div id=submission_col>
+                            <input type="button" onclick="handle_contribution()" value="Submit">
+                            <input id='name' type='text' placeholder='author'>
+                        </div>
                     </form>
                 </div>
             </div>
