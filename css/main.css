@@ -36,12 +36,12 @@ a, a:visited {
 }
 
 .container {
-    padding: 40px 0;   
+    padding: 40px 0;
 }
 
 .column {
-    margin: 0 10%; 
-}  
+    margin: 0 10%;
+}
 
 /* Navigation */
 #home {
@@ -78,6 +78,20 @@ header {
         display: block;
         float: left;
         padding: 1px;
+    }
+
+    #logo h1 {
+        display: inline-block;
+        /*position: relative;
+        top: 50%;
+        transform: translateY(-50%);*/
+    }
+
+    #logo_img {
+        /*position: absolute;*/*/
+        display: inline-block;
+        opacity: .7;
+        width: 30px;
     }
 
     nav {
@@ -143,7 +157,7 @@ input[type=text] {
     color: #ecf0f1;
     font-size: 1em;
     text-align: center;
-    
+
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -232,7 +246,7 @@ input[type=text]:focus {
         font-size: 1.2em;
         margin-top: 30px;
     }
-    
+
     ul.contact {
         text-align: left;
         list-style: none;
@@ -344,9 +358,9 @@ footer {
     border-right: none;
     border-left: 2px solid darkgrey;
     border-bottom: 2px solid darkgrey;
-    
+
     font-size: 1.3em;
-    
+
     transition: 0.4s ease-in-out;
 }
 
@@ -357,7 +371,7 @@ footer {
     border-color: white;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
-    
+
     transition: 0.4s ease-in-out;
 }
 
